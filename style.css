@@ -21,7 +21,6 @@ h2 {
   padding: 30px;
   background-color: #FFFBFC;
   border-radius: 4px;
-  /* border: 1px solid lightgrey; */
   width: 1000px;
   margin: 0 auto;
 }
@@ -38,6 +37,7 @@ h2 {
 }
 
 #avatar:hover {
+  transition: 0.5s;
   background-image: url("images/borat.jpg")
 }
 
@@ -54,7 +54,6 @@ h2 {
 
 .link-btn:hover {
   transition: 0.1s;
-  /* opacity: 0.6; */
   background-color: #9FA9D0;
   color: white;
   box-shadow: 8px;
@@ -79,8 +78,34 @@ li {
   color: #7180B9;
 }
 
-.fab:hover {
+.social-media-icons:hover {
   opacity: 0.4;
+}
+
+#boer {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#wine {
+  text-decoration: none;
+  color: black;
+}
+
+#wine:hover {
+  font-weight: bold;
+  padding: 4px;
+}
+
+#boer:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+  font-weight: bold;
+  /* color: white; */
+  /* background-color: gray; */
+  border-radius: 4px;
+  padding: 4px;
 }
 
 #bean {
