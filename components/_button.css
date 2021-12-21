@@ -1,0 +1,32 @@
+.btn-ghost {
+  color: #e93b3b;
+  border: 1px solid #F1F9F6;
+  background: #F1F9F6;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color: white;
+  border: 1px solid #e93b3b;
+  background: #e93b3b;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-intro {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-intro:hover {
+  opacity: 1;
+}

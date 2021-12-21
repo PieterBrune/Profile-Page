@@ -1,3 +1,7 @@
+@import url("components/_banner.css");
+@import url("components/_navbar.css");
+@import url("components/_button.css");
+
 body {
   text-align: center;
   background-color: #F1F9F6;
@@ -10,6 +14,7 @@ h1, h2 {
 
 h2 {
   font-size: 20px;
+  font-weight: bold;
 }
 
 
