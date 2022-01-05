@@ -5,11 +5,13 @@
 body {
   text-align: center;
   background-color: #F1F9F6;
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Nixie One', cursive;
 }
 
 h1, h2 {
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Nixie One', cursive;
 }
 
 h2 {

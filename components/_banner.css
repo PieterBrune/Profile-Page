@@ -1,8 +1,13 @@
+body {
+  background-size: cover;
+  background-position: center;
+}
+
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
-  height: 70vh;
+  padding: 0px 0;
+  height: 100vh;
 }
 
 .banner h1 {
@@ -22,8 +27,19 @@
 
 #me {
   box-shadow: black;
+  height: 100%;
+  width: auto;
 }
 
 .name {
   color: rgb(216, 47, 17);
+}
+
+.adjust {
+  height: 80vh;
+}
+
+.row-images {
+  width: 50%;
+  height: auto;
 }
