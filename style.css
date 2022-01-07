@@ -45,7 +45,7 @@ h2 {
 
 #avatar:hover {
   transition: 0.5s;
-  background-image: url("images/borat.jpg")
+  background-image: url("images/borat.jpg");
 }
 
 .link-btn {
