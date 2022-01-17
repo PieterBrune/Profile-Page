@@ -48,6 +48,11 @@ h2 {
   background-image: url("images/borat.jpg");
 }
 
+#description {
+  padding: 10px 20px;
+  color: #000000;
+}
+
 .link-btn {
   background-color: #7180B9;
   padding: 4px;
