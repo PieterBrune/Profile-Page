@@ -2,6 +2,8 @@
   display: flex;
   justify-content: space-between;
   background-color: transparent;
+  background-image: url("../images/paper\ background.jpg");
+  background-size: cover;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -14,4 +16,8 @@
 
 .nav-link {
   font-size: 32px;
+}
+
+a.nav-link {
+  color: #032639;
 }

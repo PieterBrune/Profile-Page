@@ -4,22 +4,27 @@
 
 body {
   text-align: center;
-  background-color: #F1F9F6;
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Nixie One', cursive;
+  background-color: #032639;
+  /* background-color: #F1F9F6; */
+  /* font-family: 'Open Sans', sans-serif; */
 }
 
 h1, h2 {
   /* font-family: 'Raleway', sans-serif; */
   font-family: 'Nixie One', cursive;
+  color: white;
 }
 
 h2 {
   font-size: 20px;
   font-weight: bold;
+
 }
 
-
+h2 span {
+  color: white;
+}
 
 .card {
   padding: 20px;
@@ -41,16 +46,17 @@ h2 {
   height: 240px;
   margin: 0 auto;
   border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
-#avatar:hover {
+/* #avatar:hover {
   transition: 0.5s;
   background-image: url("images/borat.jpg");
-}
+} */
 
 #description {
-  padding: 10px 20px;
-  color: #000000;
+  padding: 10px 80px;
+  color: #ffffff;
 }
 
 .link-btn {
@@ -146,4 +152,8 @@ li {
     width: 300px;
     margin: 0 auto;
   }
+}
+
+#animate-nature {
+  font-size: 20px;
 }

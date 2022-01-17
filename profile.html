@@ -19,7 +19,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255, 255, 255, 0.4)), url(images/paper\ background.jpg);">
+<!-- <body style="background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255, 255, 255, 0.4)), url(images/paper\ background.jpg);"> -->
+<body>
 
   <!-- <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255, 255, 255, 0.4)), url(images/paper\ background.jpg);"> -->
   <div class="banner">
@@ -59,15 +60,18 @@
       <div class="row adjust d-flex ">
         <div class="col-12 col-lg-4">
           <div class="row-images" id="winebarrels"></div>
-          <h2>Wine</h2>
+          <br>
+          <h2>Wine 🍷 <i class="fas fa-wine-bottle fa-spin"></i></h2>
         </div>
         <div class="col-12 col-lg-4">
-          <div id="nature"></div>
-          <h2>Nature</h2>
+          <div class="row-images" id="nature"></div>
+          <br>
+          <h2>Nature 🌱 <div id="animate-nature" class="fa"></div></h2>
         </div>
         <div class="col-12 col-lg-4">
-          <div id="code"></div>
-          <h2>Software</h2>
+          <div class="row-images" id="code"></div>
+          <br>
+          <h2>Software <i class="fa fa-cog fa-spin" style="font-size:18px"></i> <div id="charging" class="fa"></div></h2>
         </div>
         <!-- <div class="col-12 col-lg-3">
           <img id="me" src="images/cv-photo new.png" alt="picture of Pieter Brune">
@@ -75,5 +79,36 @@
       </div>
     </div>
   </div>
+  <script>
+    function chargebattery() {
+      var a;
+      a = document.getElementById("charging");
+      a.innerHTML = "&#xf244;";
+      setTimeout(function () {
+        a.innerHTML = "&#xf243;";
+      }, 1000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf242;";
+      }, 2000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf241;";
+      }, 3000);
+      setTimeout(function () {
+        a.innerHTML = "&#xf240;";
+      }, 4000);
+    }
+    chargebattery();
+    setInterval(chargebattery, 5000);
 
+    function nature() {
+        var a;
+        a = document.getElementById("animate-nature");
+        a.innerHTML = "&#xf043;";
+        setTimeout(function () {
+          a.innerHTML = "&#xf1bb;";
+        }, 1500);
+      }
+      nature();
+      setInterval(nature, 3000);
+  </script>
 </body>
