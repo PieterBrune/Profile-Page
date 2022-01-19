@@ -1,0 +1,30 @@
+#budease {
+  background-image: url("../images/Budease-Logo.png");
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  background-size: 240px;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+  z-index: 1;
+}
+ #budease:hover {
+   opacity: 0.9;
+ }
+
+#brawlr {
+  background-image: url("../images/brawlr-logo.png");
+  background-position: center;
+  background-size: cover;
+  background-color: rgb(255, 255, 255);
+  background-size: 240px;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#brawlr:hover {
+  opacity: 0.9;
+}

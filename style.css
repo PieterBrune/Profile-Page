@@ -1,6 +1,7 @@
 @import url("components/_banner.css");
 @import url("components/_navbar.css");
 @import url("components/_button.css");
+@import url("components/_projects.css");
 
 body {
   text-align: center;
@@ -38,10 +39,11 @@ h2 span {
 }
 
 #avatar {
-  background-image: url("images/cv-photo new.png");
+  background-image: url("images/profile-photo-new.jpg");
   background-position: center;
+  background-size: cover;
   background-position-y: top;
-  background-size: 240px;
+  /* background-size: 240px; */
   width: 240px;
   height: 240px;
   margin: 0 auto;
