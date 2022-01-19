@@ -7,7 +7,8 @@ body {
   background-size: cover;
   background-position: center;
   padding: 0px 0;
-  height: 100vh;
+  margin-bottom: 20px;
+  /* height: 40vh; */
 }
 
 .banner h1 {
@@ -17,7 +18,7 @@ body {
   font-size: 56px;
 }
 
-.banner p {
+p {
   font-size: 20px;
   color: white;
 }
@@ -32,9 +33,9 @@ body {
   color: rgb(216, 47, 17);
 }
 
-.adjust {
+/* .adjust {
   height: 80vh;
-}
+} */
 
 .row-images {
   /* border-radius: 50%;
