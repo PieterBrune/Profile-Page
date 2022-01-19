@@ -17,6 +17,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <!-- Required Core Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+  <!-- Optional Theme Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 
 <!-- <body style="background-image: linear-gradient(rgba(0,0,0,0.0),rgba(255, 255, 255, 0.4)), url(images/paper\ background.jpg);"> -->
@@ -77,14 +82,12 @@
         <br>
         <h2>Software <i class="fa fa-cog fa-spin" style="font-size:18px"></i> <div id="charging" class="fa"></div></h2>
       </div>
-      <!-- <div class="col-12 col-lg-3">
-        <img id="me" src="images/cv-photo new.png" alt="picture of Pieter Brune">
-      </div> -->
     </div>
+    <br>
     <br>
     <h1><span class="name">P</span>rojects.</h1>
     <br>
-    <div class="row adjust d-flex ">
+    <!-- <div class="row adjust d-flex ">
       <div class="col-12 col-lg-4">
         <a href="https://www.budease.org/" target="_blank"><div class="row-images" id="budease"></div></a>
         <br>
@@ -104,7 +107,55 @@
         <h2>Vault</h2>
         <p>Bali's first and best underground night club.</p>
       </div>
+    </div> -->
+
+
+    <div class="glide">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+            <div>
+              <a href="https://www.budease.org/" target="_blank">
+                <div class="row-images" id="budease"></div>
+              </a>
+              <br>
+              <h2>BudEase</h2>
+              <p>BudEase is a social platform that allows users to find places that offer their favourite activities, book a
+                class
+                and
+                add, chat to and invite their buddies to join them for a class.</p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div>
+              <a href="https://brawlr.herokuapp.com/" target="_blank">
+                <div class="row-images" id="brawlr"></div>
+              </a>
+              <br>
+              <h2>Brawlr</h2>
+              <p>Brawlr is a online platform that allows users to find, host and book fights at gyms in their local area.
+              </p>
+            </div>
+          </li>
+          <li class="glide__slide">
+            <div>
+              <div class="row-images" id="code"></div>
+              <br>
+              <h2>Vault</h2>
+              <p>Bali's first and best underground night club.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="glide__arrows" data-glide-el="controls">
+        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+      </div>
     </div>
+
+    <br>
+    <br>
+
     <h1><span class="name">C</span>ontact.</h1>
     <br>
     <br>
@@ -127,6 +178,14 @@
   </div>
   <br>
   <br>
+
+
+  <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+  <script>
+    new Glide('.glide').mount()
+  </script>
+
   <script>
     function chargebattery() {
       var a;
