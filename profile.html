@@ -1,64 +1,212 @@
+<!DOCTYPE html>
 <html>
 
-<head>
-  <title>Pieter Brune</title>
+  <head>
+    <title>Pieter Brune</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
 
-  <link rel="icon"
-    href="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-globe-earth-day-flatart-icons-lineal-color-flatarticons-1.png">
+    <link rel="icon"
+      href="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-globe-earth-day-flatart-icons-lineal-color-flatarticons-1.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Open+Sans&family=Roboto+Mono:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
 
-<body>
-  <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.svg" />
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-iconn"></span>
-      </button>
+    <!-- Optional Theme Stylesheet -->
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+  </head>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+  <body>
+    <div id="top"></div>
+
+    <div class="navbar navbar-expand-md navbar-light navbar-lewagon">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top">
+          <img src="images/logo.svg" />
+        </a>
+        <button onclick="toggling()" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">About.</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects.</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact.</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(255, 255, 255, 0.4)), url(images/backdrop.jpg);">
+    <br>
+
+    <div class="banner" id="about">
+      <div id="avatar"></div>
+      <h1><span class="name">H</span>ello, <span class="name">I</span>'m <span class="name">P</span>ieter</h1>
+      <br>
+      <p id="description">I am a Fullstack Developer from South Africa with a Bachelor of Science Degree in Viticulture & Oenology. My deep interest in the intersection of art and science led me into winemaking where I discovered my passion of bridging
+      the gap between agriculture and technology. I am excited to work on and be part of innovation where it brings about
+      positive change. I am curently based in Canggu, Bali working as freelance developer and data analyst.</p>
+      <br>
+    </div>
     <div class="container">
-      <div class="row">
-        <div class="col-12 col-lg-8">
-          <h1><span class="name">H</span>ello, <span class="name">I</span>'m <span class="name">P</span>ieter</h1>
+      <div class="row adjust d-flex ">
+        <div class="col-12 col-lg-4">
+          <div class="row-images" id="winebarrels"></div>
           <br>
-          <a class="btn btn-ghost" href="#">Projects</a>
+          <h2>Wine 🍷 <i class="fas fa-wine-bottle fa-spin"></i></h2>
         </div>
         <div class="col-12 col-lg-4">
-          <img id="me" src="images/profile-photo.png" alt="picture of Pieter Brune">
+          <div class="row-images" id="nature"></div>
+          <br>
+          <h2>Nature 🌱 <div id="animate-nature" class="fa"></div></h2>
+        </div>
+        <div class="col-12 col-lg-4">
+          <div class="row-images" id="code"></div>
+          <br>
+          <h2>Software <i class="fa fa-cog fa-spin" style="font-size:18px"></i> <div id="charging" class="fa"></div></h2>
         </div>
       </div>
-    </div>
-  </div>
+      <br id="projects">
+      <br>
+      <h1><span class="name">P</span>rojects.</h1>
+      <br>
 
-</body>
+      <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide">
+              <div>
+                <a href="https://www.budease.org/" target="_blank">
+                  <div class="row-images" id="budease"></div>
+                </a>
+                <br>
+                <h2>BudEase</h2>
+                <p>BudEase is a social platform that allows users to find places that offer their favourite activities, book a
+                  class
+                  and
+                  add, chat to and invite their buddies to join them for a class.</p>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div>
+                <a href="https://brawlr.herokuapp.com/" target="_blank">
+                  <div class="row-images" id="brawlr"></div>
+                </a>
+                <br>
+                <h2>Brawlr</h2>
+                <p>Brawlr is a online platform that allows users to find, host and book fights at gyms in their local area.
+                </p>
+              </div>
+            </li>
+            <li class="glide__slide">
+              <div>
+                <div class="row-images" id="code"></div>
+                <br>
+                <h2>Vault</h2>
+                <p>Bali's first and best underground night club.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+          <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+        </div>
+      </div>
+
+      <br>
+      <br>
+
+      <h1><span class="name" id="contact">C</span>ontact.</h1>
+      <br>
+      <br>
+      <div class="row adjust d-flex ">
+        <div class="col-4">
+          <a href="mailto: info@pieterbrune.com" class="social-media-icons" target="_blank">
+            <li><i class="far fa-envelope"></i></li>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="https://www.linkedin.com/in/pietbrune/" class="social-media-icons" target="_blank">
+            <li><i class="fab fa-linkedin"></i></li>
+          </a>
+        </div>
+        <div class="col-4">
+            <a href="https://github.com/PieterBrune" class="social-media-icons" target="_blank">
+              <li><i class="fab fa-github-square"></i></li>
+            </a>
+        </div>
+    </div>
+    <br>
+    <br>
+
+
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script>
+      new Glide('.glide').mount()
+    </script>
+
+    <script>
+      function chargebattery() {
+        var a;
+        a = document.getElementById("charging");
+        a.innerHTML = "&#xf244;";
+        setTimeout(function () {
+          a.innerHTML = "&#xf243;";
+        }, 1000);
+        setTimeout(function () {
+          a.innerHTML = "&#xf242;";
+        }, 2000);
+        setTimeout(function () {
+          a.innerHTML = "&#xf241;";
+        }, 3000);
+        setTimeout(function () {
+          a.innerHTML = "&#xf240;";
+        }, 4000);
+      }
+      chargebattery();
+      setInterval(chargebattery, 5000);
+
+      function nature() {
+          var a;
+          a = document.getElementById("animate-nature");
+          a.innerHTML = "&#xf043;";
+          setTimeout(function () {
+            a.innerHTML = "&#xf1bb;";
+          }, 1500);
+        }
+        nature();
+        setInterval(nature, 3000);
+    </script>
+
+    <script>
+      function toggling() {
+        var x = document.getElementById("navbarSupportedContent");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none"
+        }
+      }
+    </script>
+  </body>
+
+</html>
