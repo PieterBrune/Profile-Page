@@ -7,12 +7,9 @@ body {
   text-align: center;
   font-family: 'Nixie One', cursive;
   background-color: #032639;
-  /* background-color: #F1F9F6; */
-  /* font-family: 'Open Sans', sans-serif; */
 }
 
 h1, h2 {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: 'Nixie One', cursive;
   color: white;
 }
@@ -52,10 +49,6 @@ h2 span {
   margin-top: 100px;
 }
 
-/* #avatar:hover {
-  transition: 0.5s;
-  background-image: url("images/borat.jpg");
-} */
 
 #description {
   padding: 10px 80px;
