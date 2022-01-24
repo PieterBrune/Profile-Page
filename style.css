@@ -49,6 +49,7 @@ h2 span {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  margin-top: 100px;
 }
 
 /* #avatar:hover {

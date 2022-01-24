@@ -5,6 +5,9 @@
   background-image: url("../images/mood.jpg");
   background-size: cover;
   background-position: center;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
 }
 
 .navbar-lewagon .navbar-collapse {
