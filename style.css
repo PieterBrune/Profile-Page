@@ -1,7 +1,7 @@
-@import url("./components/_banner.css");
-@import url("./components/_navbar.css");
-@import url("./components/_button.css");
-@import url("./components/_projects.css");
+@import url("./components/banner.css");
+@import url("./components/navbar.css");
+@import url("./components/button.css");
+@import url("./components/projects.css");
 
 body {
   text-align: center;
