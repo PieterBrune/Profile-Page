@@ -8,7 +8,6 @@ body {
   background-position: center;
   padding: 0px 0;
   margin-bottom: 20px;
-  /* height: 40vh; */
 }
 
 .banner h1 {
@@ -33,27 +32,20 @@ p {
   color: rgb(216, 47, 17);
 }
 
-/* .adjust {
-  height: 80vh;
-} */
+
 
 .row-images {
-  /* border-radius: 50%;
-  box-shadow: 1px 1px 0 rgb(206, 206, 206);
-  width: 100%;
-  height: auto; */
   position: relative;
   box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 
 
 .row-images:hover {
-  /* opacity: 0.8; */
   background-color: white;
 }
 
 #winebarrels {
-  background-image: url("../images/wine barrels 1.png");
+  background-image: url("../images/wine\ barrels\ 1.png");
   background-position: center;
   background-position-y: top;
   background-size: 240px;
@@ -65,7 +57,7 @@ p {
 }
 
 #nature {
-  background-image: url("../images/nature 2.png");
+  background-image: url("../images/nature\ 2.png");
   background-position: center;
   background-position-y: top;
   background-size: 240px;
@@ -76,7 +68,7 @@ p {
 }
 
 #code {
-  background-image: url("../images/code 2.png");
+  background-image: url("../images/code\ 2.png");
   background-position: center;
   background-position-y: top;
   background-size: 240px;
