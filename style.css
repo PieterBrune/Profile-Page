@@ -96,38 +96,6 @@ li {
   opacity: 0.4;
 }
 
-#boer {
-  text-decoration: none;
-  font-weight: bold;
-  color: black;
-}
-
-#wine {
-  text-decoration: none;
-  color: black;
-}
-
-#wine:hover {
-  font-weight: bold;
-  padding: 4px;
-}
-
-#boer:hover {
-  text-decoration: underline;
-  opacity: 0.8;
-  font-weight: bold;
-  /* color: white; */
-  /* background-color: gray; */
-  border-radius: 4px;
-  padding: 4px;
-}
-
-#bean {
-  width: 280px;
-  height: 240px;
-  margin-top: 100px;
-  size: 240px;
-}
 
 @media (max-width: 960px) {
   .card {
