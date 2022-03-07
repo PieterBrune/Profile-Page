@@ -28,3 +28,20 @@
 #brawlr:hover {
   opacity: 0.9;
 }
+
+#pi {
+  background-image: url("../images/Pi\ Logo.svg");
+  background-position: center;
+  background-size: contain;
+  /* background-color: rgb(255, 255, 255); */
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#pi:hover {
+  opacity: 0.9;
+}

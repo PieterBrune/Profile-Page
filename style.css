@@ -6,7 +6,9 @@
 body {
   text-align: center;
   font-family: 'Nixie One', cursive;
-  background-color: #032639;
+  /* background-color: #032639; */
+  background-color: #001b2c;
+  /* background-image: linear-gradient(to bottom right, #032639, #001b2c); */
 }
 
 h1, h2 {
