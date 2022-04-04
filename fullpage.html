@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pieter Brune</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JV8VVV8MN9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-JV8VVV8MN9');
+  </script>
+
+  <link rel="icon"
+    href="https://img.icons8.com/external-flatart-icons-lineal-color-flatarticons/64/000000/external-globe-earth-day-flatart-icons-lineal-color-flatarticons-1.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nixie+One&family=Open+Sans&family=Roboto+Mono:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <!-- Required Core Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+  <!-- Optional Theme Stylesheet -->
+  <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.css"
+    integrity="sha512-4rPgyv5iG0PZw8E+oRdfN/Gq+yilzt9rQ8Yci2jJ15rAyBmF0HBE4wFjBkoB72cxBeg63uobaj1UcNt/scV93w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Swiper JS -->
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+    <div id="top"></div>
+
+    <div class="navbar navbar-expand-md navbar-light navbar-lewagon" style="background: transparent">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#top">
+          <img src="images/logowhite.svg" />
+        </a>
+        <button onclick="toggling()" class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#top">About.</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">Projects.</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact.</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  <div id="fullpage">
+
+    <div class="section s1" data-anchor="top">
+        <div class="banner" id="about">
+          <div id="avatar"></div>
+          <h1><span class="name">H</span>ello, <span class="name">I</span>'m <span class="name">P</span>ieter</h1>
+          <br>
+          <p id="description">I am a Fullstack Developer from South Africa with a Bachelor of Science Degree in Viticulture &
+            Oenology. My deep interest in the intersection of art and science led me into winemaking where I discovered a
+            burning curiousity of bridging
+            the gap between agriculture and technology. I am excited to work on and drive positive innovation in exciting
+            fields. I am currently based in Canggu, Bali working as freelance developer and data analyst.</p>
+          <br>
+        </div>
+    </div>
+
+    <div class="section s2" data-anchor="projects">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <h1 id="project-heading"><span class="name">P</span>rojects.</h1>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="projects">
+              <a href="https://www.budease.org/" target="_blank">
+                <div class="row-images" id="budease"></div>
+              </a>
+              <br>
+              <h2>BudEase</h2>
+              <p>BudEase is a mobile-first social platform that allows users to find places that offer their favourite activities,
+                book a
+                class
+                and
+                add, chat to and invite their buddies to join them for a class.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="projects">
+              <a href="https://www.vault-bali.com/" target="_blank">
+                <div class="row-images" id="vault"></div>
+              </a>
+              <br>
+              <h2>Vault</h2>
+              <p>Vault is Bali's first underground night club. Vault needed a website that reflected the underground feeling of
+                their venue whilst being able to easily upload new events and photo albums.</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="projects">
+              <a href="https://brawlr.herokuapp.com/" target="_blank">
+                <div class="row-images" id="brawlr"></div>
+              </a>
+              <br>
+              <h2>Brawlr</h2>
+              <p>Brawlr is a online platform that allows users to find, host and book fights at gyms in their local
+                area. Brawlr was built within 5 days as part as fun project.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="projects">
+              <a href="https://www.pi-analytics.co.za/" target="_blank">
+                <div class="row-images" id="pi"></div>
+              </a>
+              <br>
+              <h2>Pi</h2>
+              <p>Pi is a data analytics company based in Wellington, South Africa. The client requested a new website to be designed
+                and developed from scratch. The website is designed to give a feeling of expansiveness.</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <div class="section s3" data-anchor="contact">
+      <h1 id="contact-heading"><span class="name">C</span>ontact.</h1>
+      <br>
+      <br>
+      <div class="row adjust d-flex ">
+        <div class="col-4">
+          <a href="mailto: info@pieterbrune.com" class="social-media-icons" target="_blank">
+            <li><i class="far fa-envelope"></i></li>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="https://www.linkedin.com/in/pietbrune/" class="social-media-icons" target="_blank">
+            <li><i class="fab fa-linkedin"></i></li>
+          </a>
+        </div>
+        <div class="col-4">
+          <a href="https://github.com/PieterBrune" class="social-media-icons" target="_blank">
+            <li><i class="fab fa-github-square"></i></li>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"
+    integrity="sha512-gSf3NCgs6wWEdztl1e6vUqtRP884ONnCNzCpomdoQ0xXsk06lrxJsR7jX5yM/qAGkPGsps+4bLV5IEjhOZX+gg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+      new fullpage('#fullpage', {
+          //options here
+          autoScrolling: true,
+          scrollHorizontally: true,
+          navigation: true,
+          navigationTooltips: ['About', 'Projects', 'Contact'],
+          showActiveTooltip: true,
+          // controlArrows: false,
+          slidesNavigation: true
+        });
+
+        //methods
+        // fullpage_api.setAllowScrolling(false);
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+</body>
+
+
+</html>

@@ -45,3 +45,26 @@
 #pi:hover {
   opacity: 0.9;
 }
+
+#vault {
+  background-image: url("../images/Vault-03.png");
+  background-position: center;
+  background-size: contain;
+  background-color: black;
+  /* background-color: rgb(255, 255, 255); */
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#vault:hover {
+  opacity: 0.9;
+}
+
+.projects p {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
