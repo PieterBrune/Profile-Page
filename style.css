@@ -190,7 +190,7 @@ li {
   }
 
   .banner {
-    height: 95vh;
+    /* height: 95vh; */
     margin: 0;
   }
 
@@ -206,7 +206,8 @@ li {
 
   #project-heading {
     top: 5%;
-    font-size: calc(1.5rem + 1.5vw)
+    font-size: calc(1.5rem + 1.5vw);
+    opacity: 0;
   }
 
   #contact-heading {
