@@ -20,10 +20,11 @@
 
 .nav-link {
   font-size: 32px;
+  color: #fff !important;
 }
 
-a.nav-link {
-  color: #032639;
+.nav-link:hover {
+  opacity: 0.8;
 }
 
 .navbar-toggler {
