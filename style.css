@@ -130,6 +130,8 @@ li {
 
 #fp-nav ul li .fp-tooltip.fp-right {
   right: 35px !important;
+  font-size: 28px !important;
+  top: -17px !important;
 }
 
 #fp-nav ul li .fp-tooltip {
