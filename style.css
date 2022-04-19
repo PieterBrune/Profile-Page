@@ -6,9 +6,7 @@
 body {
   text-align: center;
   font-family: 'Nixie One', cursive;
-  /* background-color: #032639; */
   background-color: #001b2c;
-  /* background-image: linear-gradient(to bottom right, #032639, #001b2c); */
 }
 
 h1, h2 {
@@ -106,6 +104,15 @@ li {
   z-index: 4000;
   top: 15%;
   width: 100vw;
+}
+
+#lewagon {
+  text-decoration: underline;
+  color: #fff;
+}
+
+#lewagon:hover {
+  opacity: 0.8;
 }
 
 #contact-heading {
