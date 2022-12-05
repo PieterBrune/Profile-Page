@@ -33,7 +33,7 @@
   background-image: url("../images/Pi\ Logo.svg");
   background-position: center;
   background-size: contain;
-  /* background-color: rgb(255, 255, 255); */
+  background-color: #0072b8;
   background-size: 200px;
   background-repeat: no-repeat;
   width: 240px;
@@ -61,6 +61,42 @@
 }
 
 #vault:hover {
+  opacity: 0.9;
+}
+
+#agency {
+  background-image: url("../images/agency.pics\ logo.png");
+  background-position: center;
+  background-size: contain;
+  background-color: #b7fc22;
+  /* background-color: rgb(255, 255, 255); */
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#agency:hover {
+  opacity: 0.9;
+}
+
+#sentinel {
+  background-image: url("../images/SentinelTechLogoWhite.png");
+  background-position: center;
+  background-size: contain;
+  background-color: #3eb1f2;
+  /* background-color: rgb(255, 255, 255); */
+  background-size: 200px;
+  background-repeat: no-repeat;
+  width: 240px;
+  height: 240px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+#sentinel:hover {
   opacity: 0.9;
 }
 
